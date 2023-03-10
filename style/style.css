@@ -197,30 +197,6 @@ footer .container .links p{
     margin-top: -20px;
     left: 89.5%;
 }
-@media screen and (max-width:767px){
-    .last-log , .text{
-        display: none;
-    }
-    .log-in{
-        width: 80%;
-        margin: auto;
-        margin-top: -60px;
-    }
-    footer .list{
-        overflow-x: scroll;
-        font-size: 12px;
-    }
-    footer .container {
-        overflow-x: hidden;
-        height: 100px;
-    }
-    footer .container .links p{
-        float: left;
-        position: absolute;
-        top: 61%;
-        left: 8%;
-    }
-}
 @media screen and (max-width:991px){
     .last-log{
         width: 45%;
@@ -254,4 +230,29 @@ footer .container .links p{
         font-size: 18px;
     }
 }
+@media screen and (max-width:767px){
+    .last-log , .text{
+        display: none;
+    }
+    .log-in{
+        width: 80%;
+        margin: auto;
+        margin-top: -60px;
+    }
+    footer .list{
+        overflow-x: scroll;
+        font-size: 12px;
+    }
+    footer .container {
+        overflow-x: hidden;
+        height: 100px;
+    }
+    footer .container .links p{
+        float: left;
+        position: absolute;
+        top: 61%;
+        left: 8%;
+    }
+}
+
 
