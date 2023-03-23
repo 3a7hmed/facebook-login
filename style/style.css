@@ -216,6 +216,8 @@ footer .container .links p{
     .last-log h2{
         position: relative;
         top: -75px;
+        left:-270px;
+        font-size:50px;
     }
     .log-in{
         width: 45%;
@@ -248,7 +250,7 @@ footer .container .links p{
     .log-in{
         width: 80%;
         margin: auto;
-        margin-top: -60px;
+        margin-top: -20px;
     }
     footer .list{
         overflow-x: scroll;
