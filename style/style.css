@@ -7,6 +7,16 @@ a , li{
     text-decoration: none;
     color: black;
 }
+#f{
+    display:none;
+    text-align: center;
+    font-size: 48px;
+    color: #1877F2;
+    letter-spacing: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 20px;
+}
 .log-in{
     background-color: white;
     width: 400px;
@@ -231,6 +241,7 @@ footer .container .links p{
     }
 }
 @media screen and (max-width:767px){
+    #f{display:block;}
     .last-log , .text{
         display: none;
     }
